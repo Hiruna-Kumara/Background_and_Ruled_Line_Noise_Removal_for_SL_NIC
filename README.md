@@ -3,4 +3,4 @@
 This research is based on introducing high performing background and ruled line noise removing technique for Sri Lanakan NIC recognition system like OCR systems
 
 
-![This is an image](images/diag_over-removebg-preview.png)
+![This is an image](images/overall_1-removebg-preview.png)
