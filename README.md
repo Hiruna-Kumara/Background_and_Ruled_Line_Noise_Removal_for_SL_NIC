@@ -21,6 +21,6 @@ The architecture of overall process can be shown as below. In order to performa 
 
 ![This is an image](images/overall_background_noise_removing.jpg)
 
-This is the architecture of overall process with ruled line noise removing and background noise removing. Ruled line noise removing is done prior to the background noise remvoing. According to this figure output of ruled line noise remover is fed into background noise remover. Therefore, you need modifiy ruled line noise remover and use output of ruled line noise remover as input to the background noise remover in order to build overall architecture. To do this, you should store the output of ruled line noise remover in gooogle drive folder. Then replace link in fuzzy filtering code by a google drive folder path which is correspond to the ruled line noise remover outcome.
+This is the architecture of overall process with ruled line noise removing and background noise removing. Ruled line noise removing is done prior to the background noise remvoing. According to this figure output of ruled line noise remover is fed into background noise remover. Therefore, you need modifiy ruled line noise remover and use output of ruled line noise remover as input to the background noise remover in order to build overall architecture. To do this, you should store the output of ruled line noise remover in gooogle drive folder. Then use that drive folder as input to the fuzzy filter.
 
 ![This is an image](images/overall.jpg)
